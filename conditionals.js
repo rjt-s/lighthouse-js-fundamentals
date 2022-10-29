@@ -27,3 +27,9 @@ if(temperature < 0){
 }
 
 console.log("You are now ready to go outside.")
+
+// going outside
+
+if(temperature < -40 || temperature > 40){
+  console.log("Maybe going outside isn't a good idea");
+}
